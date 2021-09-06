@@ -1,5 +1,10 @@
 # club-website-2.0
 
+## Pre-requisites to be installed
+1. [Node](https://nodejs.org/en/download/)
+2. [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+3. [Npx](https://www.npmjs.com/package/npx)
+
 ## How to use it
 
 - Build from sources:
