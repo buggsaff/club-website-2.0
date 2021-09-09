@@ -2293,11 +2293,11 @@ header .icon.circled {
 #header {
   position: relative;
   background-color: #1f1920;
-  /* background-image: url("../../images/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg");
+  background-image: url("../../images/hackathon.png");
 
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed; */
+  background-attachment: fixed;
   color: #fff;
   text-align: center;
   padding: 7.5em 0 2em 0;
@@ -2324,7 +2324,8 @@ header .icon.circled {
 }
 
 #header header > p {
-  font-size: 1.25em;
+  font-size: 1.6em;
+
   margin: 0;
 }
 
@@ -2337,12 +2338,13 @@ header .icon.circled {
 
 #header h1 a {
   color: inherit;
+  font-weight: 600;
 }
 
 #header .button {
   display: inline-block;
   border-radius: 10px;
-  width: 4.5em;
+  width: 7.5em;
   height: 2.5em;
   line-height: 2.5em;
   text-align: center;
@@ -2363,7 +2365,7 @@ header .icon.circled {
 }
 
 #header footer {
-  margin: 1em 0 0 0;
+  margin: 0 0 0 0;
 }
 
 body.homepage #header {
@@ -2375,6 +2377,46 @@ body.homepage #header h1 {
   /* font-size: 4em; */
 }
 
+/* test */
+.button {
+  border-radius: 4px;
+  background-color: rgb(102, 161, 12);
+  border: none;
+  color: yellow;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* test */
 body.homepage #header:after {
   content: "";
   background: #1c0920;
@@ -2384,7 +2426,7 @@ body.homepage #header:after {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
+  opacity: 0.7;
   -moz-transition: opacity 2.5s ease-in-out;
   -webkit-transition: opacity 2.5s ease-in-out;
   -ms-transition: opacity 2.5s ease-in-out;
