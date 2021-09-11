@@ -19,3 +19,8 @@ $ yarn dev # start in development mode
 ```
 
 <br />
+
+# Homepage
+
+![Screenshot 2021-09-11 042929](https://user-images.githubusercontent.com/72952554/132926338-9c359837-8357-4644-902a-6a72f3772120.png)
+
